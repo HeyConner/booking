@@ -13,5 +13,10 @@ $(document).ready(function() {
     $("#ok").show();
 
      event.preventDefault();
-  });
+   });
+
+   $("button#inverse").click(function() {
+     $("body").toggleClass("black-background");
+   });
+
 });

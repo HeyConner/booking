@@ -1,3 +1,8 @@
+.black-background {
+  background-color: black;
+  color: white;
+}
+
 #ok {
   display: none;
 }
